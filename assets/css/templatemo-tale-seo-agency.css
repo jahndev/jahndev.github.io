@@ -1057,6 +1057,14 @@ Infos Style
   margin-top: 120px;
 }
 
+.infos-staff {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0px;
+  margin-top: 120px;
+}
+
 .infos .main-content {
   overflow: hidden;
   background-color: #fff;
