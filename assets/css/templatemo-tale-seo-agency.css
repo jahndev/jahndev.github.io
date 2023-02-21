@@ -1298,6 +1298,12 @@ footer p a:hover {
   color: #5b03e4;
 }
 
+.badage-img {
+  text-align: center;
+  width: 130px;
+  height: 25px;
+}
+
 /* 
 ---------------------------------------------
 Page Heading Style
