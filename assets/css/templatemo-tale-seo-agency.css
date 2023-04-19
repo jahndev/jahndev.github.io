@@ -397,7 +397,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:nth-child(4) {
-  padding-right: 45px !important;
+  padding-right: 10px;
 }
 
 .header-area .main-nav .nav li a {
