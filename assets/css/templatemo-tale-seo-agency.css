@@ -104,7 +104,7 @@ p {
 }
 
 img {
-  width: 100%;
+
   overflow: hidden;
 }
 
@@ -1284,7 +1284,6 @@ Footer Style
 
 footer p {
   text-align: center;
-  padding: 30px 0px;
   color: #2a2a2a;
   font-weight: 500;
 }
@@ -1298,7 +1297,7 @@ footer p a:hover {
   color: #5b03e4;
 }
 
-.badage-img {
+footer .badage-img {
   text-align: center;
   width: 140px;
   height: 25px;
@@ -1307,8 +1306,25 @@ footer p a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 200px;
+  height: 200x;
 }
+
+footer #payment-icons img {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+
+footer .payment-icons div {
+  text-align: center;
+  align-items: center;
+}
+
+footer {
+  padding: 30px 0px;
+}
+
 /* 
 ---------------------------------------------
 Page Heading Style
