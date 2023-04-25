@@ -21,6 +21,7 @@
 
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/networking-icons.css">
   <link rel="stylesheet" href="assets/css/templatemo-tale-seo-agency.css">
   <link rel="stylesheet" href="assets/css/owl.css">
   <link rel="stylesheet" href="assets/css/animate.css">
@@ -65,10 +66,12 @@ https://templatemo.com/tm-582-tale-seo-agency
         <div class="col-lg-4 col-sm-3">
           <div class="social-icons">
             <ul>
-              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+              <li><a href="https://www.facebook.com/tedaliallc/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com/tedaliallc"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/tedalia/"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://sites.google.com/view/tedaliallc"><i class="fab fa-google-plus"></i></a></li>
+              <li><a href="https://www.crunchbase.com/organization/tedalia"><i class="fab networking-icons-crunchbase"></i></a></li>
+              <li><a href="https://wellfound.com/u/tedalia-llc"><i>WF</i></a></li>
             </ul>
           </div>
         </div>
@@ -90,11 +93,11 @@ https://templatemo.com/tm-582-tale-seo-agency
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+              <li class="scroll-to-section"><a href="index.html">Home</a></li>
+              <li class="scroll-to-section"><a href="services.html">Services</a></li>
+              <li class="scroll-to-section"><a href="projects.html">Projects</a></li>
               <li class="scroll-to-section"><a href="#about.html">About Us</a></li>
-              <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+              <li class="scroll-to-section"><a href="contact.html">Contact</a></li>
               <li class="scroll-to-section"><a href="faqs.html">FAQs</a></li>
             </ul>
             <a class='menu-trigger'>
@@ -313,9 +316,16 @@ https://templatemo.com/tm-582-tale-seo-agency
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>Copyright © 2023 <a href="#">Tedalia LLC</a>  | <a href="privacy-policy.html"> Privacy policy</a>| <a href="terms-of-use.html"> Terms of Use</a>
-          <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a
-            href="https://themewagon.com">ThemeWagon</a>
+        <div class="container-flex">
+          <div id="payment-icons"></div>
+          <div class="badage-img">
+            <a rel="nofollow" href="https://www.dmca.com/Protection/Status.aspx?ID=43599dfe-0144-45f6-83c5-e3f5a2600980&amp;refurl=https://www.tedalia.com/" title="DMCA.com Protection Status" class="dmca-badge">
+              <img src="//images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=43599dfe-0144-45f6-83c5-e3f5a2600980" alt="DMCA.com Protection Status">
+            </a>
+          </div>
+        </div>
+        <p>Copyright © 2023 <a href="#">Tedalia LLC</a>. | <a href="privacy-policy.html"> Security and Privacy Policies</a>| <a href="terms-of-use.html"> Terms and Conditions</a>
+          <br>Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution: <a href="https://themewagon.com">ThemeWagon</a>
         </p>
       </div>
     </div>
@@ -326,45 +336,25 @@ https://templatemo.com/tm-582-tale-seo-agency
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/payment-icons.js"></script>
 
-  <script>
-    var form = document.getElementById("free-quote");
-    
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
-            }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/64480b6931ebfa0fe7fa6063/1gusmp5iq';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
 </body>
-
 </html>
