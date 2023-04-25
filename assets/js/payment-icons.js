@@ -14,13 +14,12 @@
         'logo_pay_google_gpay_icon',
         'card_money_payment_payu_icon'
       ];
-      console.log('---');
 
-        images.forEach(url => {
-            var imgTag = '<img src="http://' +window.location.host+ '/'+dir + url + fileextension + '" alt>';
-            imgTags += imgTag;
-            console.log('image : '+imgTag);
-        });
+    images.forEach(url => {
+        var imgTag = '<img src="http://' +window.location.host+ '/'+dir + url + fileextension + '" alt>';
+        imgTags += imgTag;
+        console.log('image : '+imgTag);
+    });
 	
     document.getElementById('payment-icons').innerHTML = imgTags;
 })();
